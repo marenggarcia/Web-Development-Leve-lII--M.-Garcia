@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<title>Activity # 3</title>
+<head>  
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <style>
+    body {font-family: calibri;}
+
+    /* Style the tab */
+    .tab {
+      overflow: hidden;
+      border: 1px solid #ccc;
+      background-color: #f1f1f1;
+
+    }
+
+    /* Style the buttons inside the tab */
+    .tab button {
+      background-color: inherit;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      transition: 0.3s;
+      font-size: 17px;
+    }
+
+    /* Change background color of buttons on hover */
+    .tab button:hover {
+      background-color: #ddd;
+    }
+
+    /* Create an active/current tablink class */
+    .tab button.active {
+      background-color: #ccc;
+    }
+
+    /* Style the tab content */
+    .tabcontent {
+      display: none;
+      padding: 6px 12px;
+      border: 1px solid #ccc;
+      border-top: none;
+    }
+
+    h1 {
+      margin-top: 15px;
+      }
+    p.margin{
+      margin-left:90px;
+      margin-right:90px;
+    }
+
+  </style>
+</head>
+
+<body>
+<h2></h2>
+<p>Click on the buttons inside the tabbed menu:</p>
+
+<div class="tab"><center>
+  <button class="tablinks" onclick="elyen(event, 'Cavite')">Naic, Cavite </button>
+  <button class="tablinks" onclick="elyen(event, 'Tanay')">Lambingan Hills </button>
+  <button class="tablinks" onclick="elyen(event, 'Baguio')">Baguio City </button>
+</div></center>
+
+<!-- NAIC, CAVITE -->
+  <div id="Cavite" class="tabcontent">
+    <p class="margin"><b>Naic, Cavite</b>
+      <div class="container">
+        <div class="row">      
+            <div class="col-sm-6" style="background-color:#ccc;">
+              <h1 style="background-color:#f1f1f1; font-size:30px;" align="center"><b></b></h1>
+                <center><img src="naic2.jpg"></center>         
+            </div>
+            <div class="col-sm-6" style="background-color:#f1f1f1;">
+              <h1 style="background-color:#ccc; font-size:30px;" align="center"><b></b></h1>
+              <center><img src="naic3.jpg"></center>
+            </div>
+        </div>
+      <div class="row">  
+            <div class="col-sm-6" style="background-color:#ccc;">
+              <h1 style="background-color:#f1f1f1; font-size:30px;" align="center"><b></b></h1>
+              <center><img src="naic1.jpg" width="300" height="480"></center>
+            </div>
+            <div class="col-sm-6" style="background-color:#ccc;">
+              <h1 style="background-color:#f1f1f1; font-size:30px;" align="center"><b></b></h1>
+              <center><img src="naic4.jpg" width="300" height="480"></center>
+            </div>          
+        </div> 
+      <div class="row">    
+          <div class="col-sm" style="background-color:#ccc;">
+            <h1 style="background-color:#f1f1f1; font-size:30px;" align="center"><b></b></h1>
+            <center><img src="naic5.jpg"></center>
+          </div>
+        <div class="col-sm" style="background-color:#f1f1f1;">
+          <h1 style="background-color:#ccc; font-size:30px;" align="center"><b></b></h1>
+          <center><img src="naic6.jpg" width="300" height="480"></center>
+          </div>
+        </div>
+      </div>
+  </div>
+
+<!-- LAMBINGAN HILSS -->
+  <div id="Tanay" class="tabcontent">
+    <p class="margin"><b>Lambingan Hills</b> 
+      <div class="container">
+      <div class="row">      
+          <div class="col-sm" style="background-color:#ccc;">
+            <h1 style="background-color:#f1f1f1; font-size:30px;" align="center"><b></b></h1>
+              <center><img src="tanay2.jpg" width="300" height="480"></center>
+
+          </div>
+
+          <div class="col-sm" style="background-color:#f1f1f1;">
+            <h1 style="background-color:#ccc; font-size:30px;" align="center"><b></b></h1>
+            <center><img src="tanay3.jpg" width="300" height="480"></center>
+    
+          </div>
+
+          <div class="col-sm" style="background-color:#ccc;">
+            <h1 style="background-color:#f1f1f1; font-size:30px;" align="center"><b></b></h1>
+            <center><img src="lambingan1.jpg" width="300" height="480"></center>
+            
+          </div>          
+      </div>   
+
+      <div class="row">    
+        <div class="col-sm" style="background-color:#f1f1f1;">
+          <h1 style="background-color:#ccc; font-size:30px;" align="center"><b></b></h1>
+          <center><img src="tanay5.jpg" width="300" height="480"></center>
+          
+        </div>
+
+        <div class="col-sm" style="background-color:#ccc;">
+          <h1 style="background-color:#f1f1f1; font-size:30px;" align="center"><b></b></h1>
+          <center><img src="tanay4.jpg" width="300" height="480"></center>
+         
+        </div>
+
+        <div class="col-sm" style="background-color:#f1f1f1;">
+          <h1 style="background-color:#ccc; font-size:30px;" align="center"><b></b></h1>
+          <center><img src="tanay6.jpg" width="300" height="480"></center>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- BAGUIO CITY -->
+<div id="Baguio" class="tabcontent">
+  <p class="margin"><b>Baguio City</b>
+      <div class="container">
+        <div class="row">      
+            <div class="col-sm-6" style="background-color:#ccc;">
+              <h1 style="background-color:#f1f1f1; font-size:30px;" align="center"><b></b></h1>
+              <center><img src="baguio3.jpg"></center>
+            </div>
+            <div class="col-sm-6" style="background-color:#f1f1f1;">
+              <h1 style="background-color:#ccc; font-size:30px;" align="center"><b></b></h1>
+              <center><img src="baguio2.jpg"></center>
+            </div>
+          </div>
+        <div class="row">  
+            <div class="col-sm-6" style="background-color:#ccc;">
+              <h1 style="background-color:#f1f1f1; font-size:30px;" align="center"><b></b></h1>
+              <center><img src="baguio6.jpg"></center>
+            </div>      
+            <div class="col-sm-6" style="background-color:#f1f1f1;">
+              <h1 style="background-color:#ccc; font-size:30px;" align="center"><b></b></h1>
+              <center><img src="baguio4.jpg"></center>
+            </div>
+          </div>
+        <div class="row"> 
+            <div class="col-sm" style="background-color:#ccc;">
+              <h1 style="background-color:#f1f1f1; font-size:30px;" align="center"><b></b></h1>
+              <center><img src="baguio1.jpg"></center>
+          </div>
+          <div class="col-sm" style="background-color:#f1f1f1;">
+            <h1 style="background-color:#ccc; font-size:30px;" align="center"><b></b></h1>
+            <center><img src="baguio5.jpg"></center>
+        </div>
+      </div>
+</div>
+
+<script>
+function elyen(evt, movname) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(movname).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+   
+</body>
+</html> 
